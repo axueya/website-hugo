@@ -14,12 +14,6 @@ rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输
 disqusShortname = ""      # disqus_shortname
 googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
-# Highlight options.
-# See https://gohugo.io/content-management/syntax-highlighting/
-PygmentsCodeFences = true # Enable syntax highlighting with GitHub flavoured code fences
-PygmentsUseClasses = true # Use CSS classes to format highlighted code
-PygmentsCodefencesGuessSyntax = true
-PygmentsOptions = "linenos=table"
 
 # language support # en / zh-cn / other... translations present in i18n/
 defaultContentLanguage = "zh-cn"           # Default language to use
@@ -29,28 +23,31 @@ defaultContentLanguage = "zh-cn"           # Default language to use
 [author]                  # essential                     # 必需
   name = "axue"
 
+[params.counter.busuanzi] 
+  enable = true
+  
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
 
 [[menu.main]]             # config your menu              # 配置目录
-  name = "主页"
+  name = "This is Home"
   weight = 10
   identifier = "home"
   url = "/"
 [[menu.main]]
-  name = "归档"
+  name = "Archives"
   weight = 20
   identifier = "archives"
   url = "/post/"
 [[menu.main]]
-  name = "标签"
+  name = "Tags"
   weight = 30
   identifier = "tags"
   url = "/tags/"
 [[menu.main]]
-  name = "分类"
+  name = "Categories"
   weight = 40
   identifier = "categories"
   url = "/categories/"
@@ -68,8 +65,6 @@ defaultContentLanguage = "zh-cn"           # Default language to use
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"
-# show word count and read time ?                       # 是否显示字数统计与阅读时间
-  moreMeta = true
 
   # 一些全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能，在 archetypes/default.md 查看更多信息。
   # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
