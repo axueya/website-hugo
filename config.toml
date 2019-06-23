@@ -3,7 +3,7 @@
 # And see https://gohugo.io/getting-started/configuration/ .
 
 baseURL = "https://axueya.github.io/"
-title = "Jane - A super concise theme for Hugo"
+title = "停云霭霭，时雨濛濛"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -56,7 +56,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   rssFullContent = true     # if false, Rss feed instead of the summary
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Axue"        # default: the title value    # 默认值: 上面设置的title值
+  logoTitle = "阿雪的博客"        # default: the title value    # 默认值: 上面设置的title值
   keywords = ["Hugo", "theme","jane"]
   description = "阿雪的博客"
 

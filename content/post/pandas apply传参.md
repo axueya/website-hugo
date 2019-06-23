@@ -3,11 +3,9 @@
 title: "pandas apply传参"
 date: 2019-06-21T11:12:40+08:00
 categories:
-- category
-- subcategory
+- python
 tags:
 - pandas
-- pythonhello
 ---
 apply函数的*args和**kwds参数， 
 
